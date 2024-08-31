@@ -1,0 +1,46 @@
+.auth-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: white;
+
+
+
+    .auth-form{
+        background-color: whitesmoke;
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+        width: 300px;
+
+
+        h2{
+            font-size: 24px;
+            color:(12, 14, 81);
+            margin-bottom: 15px;
+
+        }
+
+        form{
+            text-align: left ;
+            
+
+            label{
+
+                display: block;
+                margin-bottom: 5px;
+                font-size: 14px;
+                color:#333;
+            }
+
+            input{
+                width: 90%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border:1px solid #ccc;
+                border-radius: 5px;
+            }
+        }
+    }
+}
